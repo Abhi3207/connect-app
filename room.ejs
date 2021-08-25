@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"  >
+        <title>Rooms</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.1/socket.io.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h3 class="heading"></h3>
+            <div class="online">
+                <h4>Online users</h4>
+                <div class="onlineuser">
+
+                </div>
+            </div>
+            <div class="chatbox">
+                <div class="chat">
+                    <div class="output"></div>
+                    <div class="feedback"></div>
+                </div>
+                <div class="input">
+                    <input type="text" id="message" placeholder="Enter message">
+                    <button id="send">Send</button>        
+                </div>
+            </div>
+        </div>
+        <script src="/chat.js"></script>
+    </body>
+</html>
